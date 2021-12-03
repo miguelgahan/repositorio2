@@ -1,0 +1,4 @@
+@import "./variables";
+@for $i from 1 to 4 {.section1#{$i}{font-size: $medidaFuente * ($i/2);}
+    
+}

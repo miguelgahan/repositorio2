@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Probando git</title>
+    <meta name="keywords" content="Rock, Rock nacional, Música, Fusión, Biga Alada, Rock Argentino, Recitales, Discos, Banda ">
+    <meta name="description" content="Sitio oficial de La biga Alada, banda de rock nacional">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>La Biga Alada</title>
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed eius beatae labore aut sequi, porro ipsum quis doloribus sunt explicabo ut veritatis repellendus consectetur officiis cumque, quasi saepe aperiam nisi?</p>
-</body>
+
+    
+    <body>
+        <header class="header__logoYSecciones">
+            <!--Header va logo de la banda y secciones de la web-->
+            
+            <div>
+                <img src="./media/95784-logomiguelo.png" alt="Logo de La Biga Alada" class="header__logoBanda">
+            </div>
+            <nav>   
+                <div class="header__seccionesDeLaWeb">
+                    <ul>
+                       
+                        <li>
+                            <a href="./index.html">Inicio</a>
+                        </li>
+                       
+                        <li>
+                            <a href="./pages/discografia.html">Discografía</a>
+                            <ul>
+                               <li>
+                                   <a href="./pages/discografia.html">Bigueros de coctel</a>
+                               </li>     
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./pages/fechas.html">Fechas</a>
+                        </li>
+                        <li>
+                            <a href="./pages/merchandising.html">Merchandising</a>
+                        </li>
+                        <li>
+                            <a href="./pages/contacto.html">Contacto</a>
+                        </li> 
+                    </ul>
+                </div>
+            </nav>   
+        </header>
+        <main>
+            <section class="videosYEscrito">
+                <!--Video de la banda a la izquierda, reseña a la derecha-->
+                <div class="videosInicio">
+                    <iframe class="trapoViejo" width="430" height="250" src="https://www.youtube.com/embed/pGBE0IqBNbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="radioAngelical" width="430" height="250" src="https://www.youtube.com/embed/pXGrvDQIcaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                </div>    
+                <div class="resena">
+                    <p>Reseña sobre la banda, y datos de su formación, etc
+                    </p>
+                    <p>aaaaaaaaaaaaaaaaaaaaaa</p>
+                    <p>aaaaaaaaaaaaaaaaaaaaaa</p>
+                    <p>aaaaaaaaaaaaaaaaaaaaaa</p>
+                </div>
+            </section>
+        </main>    
+        <!--copyright y redes sociales en footer-->
+        <footer class="footer">
+            <p>Copyright</p>
+            <p>Redes sociales</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
 </html>
